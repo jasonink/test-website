@@ -14,6 +14,7 @@ function init()
   //resize canvas to the window size
   context.canvas.width = width;
   context.canvas.height = height;
+  //create image
   img = new Image();
   img.src = "corgi_face.png";
   //draw at 60fps
